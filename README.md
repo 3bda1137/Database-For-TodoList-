@@ -14,20 +14,14 @@ This repository contains the SQL scripts and structure for a ToDo List Database.
 1. **Clone the Repository:**
 
     ```bash
-    git clone https://github.com/3bda1137/ToDoList-Database.git
+    git clone https://github.com/3bda1137/Database-For-TodoList-.git
     ```
-
-2. **Navigate to the Repository:**
-
-    ```bash
-    cd ToDoList-Database
-    ```
-
-3. **Execute the SQL Script:**
+    
+2. **Execute the SQL Script:**
 
     - Open SQL Server Management Studio (SSMS).
     - Connect to your SQL Server instance.
-    - Open and execute the script: `create_database.sql`.
+    - Open and execute the script: `CreateDB_ToDoList.sql`.
 
 ### Database Schema
 
