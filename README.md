@@ -44,9 +44,9 @@ The database schema includes the following tables:
     - Use SQL queries to manage tasks within the `Tasks` table.
     - Examples:
         - Retrieve all tasks: `SELECT * FROM Tasks;`
-        - Add a new task: `INSERT INTO Tasks (Title, Description, DueDate) VALUES ('Task 1', 'Description 1', '2024-02-14');`
-        - Update a task: `UPDATE Tasks SET Status = 'Completed' WHERE TaskID = 1;`
-        - Delete a task: `DELETE FROM Tasks WHERE TaskID = 1;`
+        - Add a new task: `INSERT INTO Tasks (TaskName, Description, TaskDate) VALUES ('Task 1', 'Description 1', '2024-02-14');`
+        - Update a task: `UPDATE Tasks SET Completed = 1 WHERE ID = 1;`
+        - Delete a task: `DELETE FROM Tasks WHERE ID = 1;`
 
 3. **Customization:**
 
@@ -57,9 +57,9 @@ The database schema includes the following tables:
 
 Contributions are welcome! If you have suggestions, improvements, or bug reports, please submit an issue.
 
-
 ## Contact
 
-If you have any questions or need assistance, feel free to contact the project maintainers:
+If you have any questions or need assistance, feel free to contact the project maintainer:
 
 - [Abdallah Mohamed](mailto:abdallahmahfouz111@gmail.com)
+
